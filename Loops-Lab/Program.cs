@@ -5,9 +5,14 @@ class Program
     {
         //Console.WriteLine("Hello, World!");
 
-        for (int i = 0; i < 5; i++)
+        //for (int i = 0; i < 5; i++)
+        //{
+        //    Console.WriteLine("Hello");
+        //}
+
+        for (int i = 0; i < 11; i++)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine(i);
         }
     }
 }
