@@ -15,9 +15,17 @@ class Program
         //    Console.WriteLine(i);
         //}
 
-        for (int i = 10; i > -1; i--)
+        //for (int i = 10; i > -1; i--)
+        //{
+        //    Console.WriteLine(i);
+        //}
+
+        Console.WriteLine("How many times do you want to write the prompt?");
+        int answer = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 0; i < answer; i++)
         {
-            Console.WriteLine(i);
+            Console.WriteLine("devCodeCamp");
         }
     }
 }
