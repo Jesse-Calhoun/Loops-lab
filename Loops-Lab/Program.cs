@@ -20,12 +20,18 @@ class Program
         //    Console.WriteLine(i);
         //}
 
-        Console.WriteLine("How many times do you want to write the prompt?");
-        int answer = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("How many times do you want to write the prompt?");
+        //int answer = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 0; i < answer; i++)
+        //for (int i = 0; i < answer; i++)
+        //{
+        //    Console.WriteLine("devCodeCamp");
+        //}
+
+        string packers = "packers";
+        foreach (char letter in packers)
         {
-            Console.WriteLine("devCodeCamp");
+            Console.WriteLine(letter);
         }
     }
 }
