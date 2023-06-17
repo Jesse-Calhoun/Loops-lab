@@ -28,10 +28,15 @@ class Program
         //    Console.WriteLine("devCodeCamp");
         //}
 
-        string packers = "packers";
-        foreach (char letter in packers)
+        //string packers = "packers";
+        //foreach (char letter in packers)
+        //{
+        //    Console.WriteLine(letter);
+        //}
+
+        for (int num=0; num<=100; num++)
         {
-            Console.WriteLine(letter);
+            Console.WriteLine(num);
         }
     }
 }
