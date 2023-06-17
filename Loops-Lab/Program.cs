@@ -1,4 +1,7 @@
-﻿namespace Loops_Lab;
+﻿using System;
+using System.ComponentModel;
+
+namespace Loops_Lab;
 class Program
 {
     static void Main(string[] args)
@@ -36,7 +39,15 @@ class Program
 
         for (int num=0; num<=100; num++)
         {
-            Console.WriteLine(num);
+            //Console.WriteLine(num);
+            if (num % 3 == 0)
+            {
+                Console.WriteLine("fizz");
+            }
+            else
+            {
+                Console.WriteLine(num);
+            }
         }
     }
 }
