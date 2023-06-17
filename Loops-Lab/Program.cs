@@ -44,6 +44,10 @@ class Program
             {
                 Console.WriteLine("fizz");
             }
+            else if(num % 5 == 0)
+            {
+                Console.WriteLine("buzz");
+            }
             else
             {
                 Console.WriteLine(num);
