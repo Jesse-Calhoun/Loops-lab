@@ -40,7 +40,11 @@ class Program
         for (int num=0; num<=100; num++)
         {
             //Console.WriteLine(num);
-            if (num % 3 == 0)
+            if (num % 3 == 0 && num % 5 == 0)
+            {
+                Console.WriteLine("fizzbuzz");
+            }
+            else if (num % 3 == 0)
             {
                 Console.WriteLine("fizz");
             }
