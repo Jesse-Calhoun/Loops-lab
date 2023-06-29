@@ -37,25 +37,33 @@ class Program
         //    Console.WriteLine(letter);
         //}
 
-        for (int num=0; num<=100; num++)
+        //for (int num=0; num<=100; num++)
+        //{
+        //    //Console.WriteLine(num);
+        //    if (num % 3 == 0 && num % 5 == 0)
+        //    {
+        //        Console.WriteLine("fizzbuzz");
+        //    }
+        //    else if (num % 3 == 0)
+        //    {
+        //        Console.WriteLine("fizz");
+        //    }
+        //    else if(num % 5 == 0)
+        //    {
+        //        Console.WriteLine("buzz");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(num);
+        //    }
+        //}
+
+        int count = 0;
+
+        while (count < 5)
         {
-            //Console.WriteLine(num);
-            if (num % 3 == 0 && num % 5 == 0)
-            {
-                Console.WriteLine("fizzbuzz");
-            }
-            else if (num % 3 == 0)
-            {
-                Console.WriteLine("fizz");
-            }
-            else if(num % 5 == 0)
-            {
-                Console.WriteLine("buzz");
-            }
-            else
-            {
-                Console.WriteLine(num);
-            }
+            Console.WriteLine("Hello!");
+            count++;
         }
     }
 }
