@@ -84,7 +84,6 @@ class Program
             userPassword = Console.ReadLine();
         }
         Console.WriteLine("User Validated!");
-        Console.WriteLine("new token");
     }
 }
 
